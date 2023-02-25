@@ -8,6 +8,8 @@ import { OfComponent } from './of/of.component';
 import { FromComponent } from './from/from.component';
 import { FromeventComponent } from './fromevent/fromevent.component';
 import { IntervalComponent } from './interval/interval.component';
+import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { IntervalComponent } from './interval/interval.component';
     OfComponent,
     FromComponent,
     FromeventComponent,
-    IntervalComponent
+    IntervalComponent,
+    DebounceTimeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
