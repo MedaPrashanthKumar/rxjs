@@ -10,6 +10,7 @@ import { FromeventComponent } from './fromevent/fromevent.component';
 import { IntervalComponent } from './interval/interval.component';
 import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FirstComponent } from './first/first.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FromComponent,
     FromeventComponent,
     IntervalComponent,
-    DebounceTimeComponent
+    DebounceTimeComponent,
+    FirstComponent
   ],
   imports: [
     BrowserModule,
